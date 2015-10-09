@@ -1,33 +1,22 @@
-		<!-- footer -->
-<footer class="footer" role="contentinfo">
-    <!-- logo -->
-    <div class="foot-logo">
-        <a href="<?php echo home_url(); ?>">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/gravatar.png" alt="Logo" class="foot-logo-img">
-                            </a>
+			<!-- footer -->
+			<footer class="footer" role="contentinfo">
 
-        <!-- copyright -->
-        <p class="copyright">
-            &copy; <a href="//wordpress.org" title="RoxyMarie">Roxanne Krause</a>
-            <a href="//roxymarie.com" </a>
-        </p>
-        <!-- /copyright -->
+				<!-- copyright -->
+				<p class="copyright">
+					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'roxymarie'); ?>
+					<a href="//wordpress.org" title="WordPress">WordPress</a> <a href="//roxymarie.com" </a>.
+				</p>
+				<!-- /copyright -->
 
+			</footer>
+			<!-- /footer -->
 
-    </div>
-    <!-- /logo -->
+		</div>
+		<!-- /wrapper -->
 
+		<?php wp_footer(); ?>
 
-</footer>
-<!-- /footer -->
+		
 
-</div>
-<!-- /wrapper -->
-
-<?php wp_footer(); ?>
-
-
-
-    </body>
-
-    </html>
+	</body>
+</html>

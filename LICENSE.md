@@ -1,8 +1,8 @@
-# [HTML5 Blank](http://html5blank.com) License
+# [HTML5 Blank](http://roxymarie.com) License
 
 ## MIT License
 
-Copyright &copy; 2013 HTML5 Blank // @html5blank
+Copyright &copy; 2013 HTML5 Blank // @roxymarie
 
 Built by Todd Motto // @toddmotto
 

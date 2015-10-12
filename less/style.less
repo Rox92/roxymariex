@@ -2,32 +2,54 @@
 @import "flex.less";
 
 
+body{
+background-image:url('city.gif');
+}
+
+
 ///Page///
 .wrapper{
     margin: 300px;
-    margin-top: 20px
+    margin-top: 20px;
 }
+
 
 ///Images////
 img.service-img {
     width: 100%;
 }
 
-img.alignnone.size-full.wp-image-32,
-img.alignnone.size-full.wp-image-33{
+avatar-blue,
+avatar-purple{
     width:10%;    
 }
 
-
-
 .service{
     padding: 10px;
+    text-align: center;
+    align-content: center;
 }
+
 
 ///Fonts////
 h2.title{ 
     text-align: center;
 }
+
+
+////Links////
+a {
+  &:hover {
+      color: black
+  };
+  &:active {
+      color:green;
+  };
+  &:visited {
+      color: orange;
+  };
+}
+
 
 ///Footer///
 img.foot-logo-img {
@@ -35,12 +57,14 @@ img.foot-logo-img {
     padding-top: 10%;
 }
 
+
 ///Nav///
 nav.nav{
     display: inline-block;
     margin-left: 80%;
     padding-top: 4%;
     text-align: center;
+    text-decoration: none;
 }
 
 
@@ -49,7 +73,7 @@ form#cf-email{
     position: absolute;
     padding-left: 40%;
     padding-top: 5%;
-    border: 0px;
+    border: none;
     text-align: left;
     line-height: 25px;
 }
@@ -71,3 +95,7 @@ img.foot-logo-img {
     padding-top: 10%;
 }
 
+////Alignment////
+h1{
+    text-align: center;
+}

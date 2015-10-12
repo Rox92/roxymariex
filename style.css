@@ -24,6 +24,9 @@ nav.nav ul {
   padding-top: 4.5%;
   flex: auto;
 }
+body {
+  background-image: url('city.gif');
+}
 .wrapper {
   margin: 300px;
   margin-top: 20px;
@@ -31,15 +34,26 @@ nav.nav ul {
 img.service-img {
   width: 100%;
 }
-img.alignnone.size-full.wp-image-32,
-img.alignnone.size-full.wp-image-33 {
+avatar-blue,
+avatar-purple {
   width: 10%;
 }
 .service {
   padding: 10px;
+  text-align: center;
+  align-content: center;
 }
 h2.title {
   text-align: center;
+}
+a:hover {
+  color: black;
+}
+a:active {
+  color: green;
+}
+a:visited {
+  color: orange;
 }
 img.foot-logo-img {
   width: 5%;
@@ -50,12 +64,13 @@ nav.nav {
   margin-left: 80%;
   padding-top: 4%;
   text-align: center;
+  text-decoration: none;
 }
 form#cf-email {
   position: absolute;
   padding-left: 40%;
   padding-top: 5%;
-  border: 0px;
+  border: none;
   text-align: left;
   line-height: 25px;
 }
@@ -70,4 +85,7 @@ form#client-login {
 img.foot-logo-img {
   width: 5%;
   padding-top: 10%;
+}
+h1 {
+  text-align: center;
 }
